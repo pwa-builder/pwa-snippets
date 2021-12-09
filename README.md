@@ -4,7 +4,8 @@ This extension contains code snippets for PWAs that aim to integrate with Window
 
 ## Snippets
 
-| Trigger | Supported languages | Content|
+| Trigger | Supported languages | Content |
+| ------- | ------------------- | ------- |
 | pwa-badge-display | javascript, typescript | Display a badge on a PWA app icon by using the [App Badging API](https://developer.mozilla.org/docs/Web/API/Badging_API) |
 | pwa-badge-clear | javascript, typescript | Remove the badge on the PWA app icon. |
 | pwa-notification-request-permission | javascript, typescript | Request user's permission to display messages. |
