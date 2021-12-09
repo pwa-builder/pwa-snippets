@@ -1,0 +1,24 @@
+{
+    "name": "pwa-snippets",
+    "displayName": "pwa-snippets",
+    "description": "Code snippets to help PWAs integrate with Windows capabilities.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language":"json",
+                "path": "./snippets/pwa-windows.json.code-snippets"
+            },
+            {
+                "language":"javascript",
+                "path": "./snippets/pwa-windows.js.code-snippets"
+            }
+        ]
+    }
+}
