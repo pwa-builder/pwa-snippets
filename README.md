@@ -1,65 +1,17 @@
-# pwa-snippets README
+# PWA Snippets
 
-This is the README for your extension "pwa-snippets". After writing up a brief description, we recommend including the following sections.
+This extension contains code snippets for PWAs that aim to integrate with Windows capabilities.
 
-## Features
+## Snippets
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+| Trigger | Supported languages | Content|
+| pwa-badge-display | javascript, typescript | Display a badge on a PWA app icon by using the [App Badging API](https://developer.mozilla.org/docs/Web/API/Badging_API) |
+| pwa-badge-clear | javascript, typescript | Remove the badge on the PWA app icon. |
+| pwa-notification-request-permission | javascript, typescript | Request user's permission to display messages. |
+| pwa-notification-display | javascript, typescript | Display a notification by creating a `Notification` object. |
+| pwa-notification-display-sw | javascript, typescript | Display a notification with actions from app's service worker. |
+| pwa-notification-click-sw | javascript, typescript | Handle the click of actions in notification. |
+| pwa-file-launch | javascript, typescript | Access file content when an app is launched by the OS after a file was opened. |
+| pwa-icons | json | Define the `icons` member in the web app manifest file. |
+| pwa-theme-color | json | Define the `theme_color` member in the web app manifest file. |
+| pwa-file-handlers | json | Define the `file_handlers` array member in the app manifest file to declare which types of files an app handles. |

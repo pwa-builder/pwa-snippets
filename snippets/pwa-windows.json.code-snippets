@@ -2,7 +2,7 @@
 	// Icons
 	"Icons": {
 		"scope": "json",
-		"prefix": "icons",
+		"prefix": "pwa-icons",
 		"body": [
 			"\"icons\": [",
 			"\t{",
@@ -33,7 +33,7 @@
 	// Theme color
 	"Theme Color": {
 		"scope": "json",
-		"prefix": "theme-color",
+		"prefix": "pwa-theme-color",
 		"body": [
 			"\"theme_color\": \"${0:#0d4c73}\""
 		],
@@ -43,7 +43,7 @@
 	// Handle files
 	"File Handlers": {
 		"scope": "json",
-		"prefix": "file-handlers",
+		"prefix": "pwa-file-handlers",
 		"body": [
 			"\"file_handlers\": [",
 			"\t{",
